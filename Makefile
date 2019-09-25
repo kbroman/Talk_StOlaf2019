@@ -1,4 +1,4 @@
-TALK = apstats2017
+TALK = stolaf2019
 
 all: ${TALK}.pdf notes html
 
@@ -55,4 +55,4 @@ clean:
 	cd DerivedFiles;ln -s ../Figs;ln -s ../Stuff
 
 web: iplot_bodyweight.html ${TALK}.pdf ${TALK}_withnotes.pdf
-	scp iplot_bodyweight.html iplot_deriv_bodyweight.html ${TALK}.pdf ${TALK}_withnotes.pdf broman-10.biostat.wisc.edu:Website/presentations/APStats2017/
+	scp iplot_bodyweight.html iplot_deriv_bodyweight.html ${TALK}.pdf ${TALK}_withnotes.pdf adhara.biostat.wisc.edu:Website/presentations/StOlaf2019/
