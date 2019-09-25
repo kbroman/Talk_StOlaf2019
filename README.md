@@ -8,12 +8,12 @@ These are slides for a talk that I will give at
 [Complex Trait Community 13th annual meeting](http://www.ctc2014.org) in
 Berlin, Germany, on 21 May 2014.)
 
-Slides and interactive graphs online at [bit.ly/stolaf2019](http://bit.ly/stolaf2019).
+Slides and interactive graphs online at [bit.ly/stolaf2019](http://bit.ly/stolaf2019):
 
 &nbsp; &nbsp; &nbsp; Slides:
   \[[pdf](https://www.biostat.wisc.edu/~kbroman/presentations/StOlaf2019/stolaf2019.pdf) |
   [pdf w/ notes](https://www.biostat.wisc.edu/~kbroman/presentations/StOlaf2019/stolaf2019_withnotes.pdf) |
-  [github](https://github.com/kbroman/Talk_StOlaf2019)\]<br/<br/>
+  [github](https://github.com/kbroman/Talk_StOlaf2019)\]<br/><br/>
 &nbsp; &nbsp; &nbsp; Interactive graphs:
   \[[genome scan for body weight at 5 weeks](https://www.biostat.wisc.edu/~kbroman/presentations/StOlaf2019/lod_and_effect) |
  [illustration of permutation test](https://www.biostat.wisc.edu/~kbroman/presentations/StOlaf2019/perm_test) |
