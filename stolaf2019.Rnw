@@ -442,6 +442,8 @@ load("~/Projects/Payseur_Gough/DerivedData/goughF2_simple_v4.RData")
 \item Multiple genetic loci contribute to body size in Gough $\times$ WSB.
 \item Gough alleles result in increased size.
 \item The major effects are on growth rate in first five weeks.
+\item Gray et al. (2015) Genetics 201:213--228
+  \href{https://doi.org/10.1534/genetics.115.177790}{\tt doi:10.1534/genetics.115.177790}
 \ei
 }
 
