@@ -1,4 +1,4 @@
-\documentclass[12pt,t]{beamer}
+\documentclass[12pt,t,aspectratio=169]{beamer}
 \usepackage{graphicx}
 \setbeameroption{hide notes}
 \setbeamertemplate{note page}[plain]
@@ -15,7 +15,7 @@
 library(broman) # for colors
 opts_chunk$set(echo=FALSE, results="hide", echo=FALSE,
                fig.path="MoreFigs/", verbose=TRUE,
-               fig.height=6.5, fig.width=10,
+               fig.height=5.8, fig.width=10,
                fig.align="center")
 library(qtl)
 @
@@ -79,9 +79,9 @@ load("~/Projects/Payseur_Gough/DerivedData/goughF2_simple_v4.RData")
 
 \begin{frame}[c]{Big rodents}
 
-\only<1|handout 0>{\figw{Figs/capybara.jpg}{0.9}}
-\only<2|handout 0>{\figw{Figs/rodents_of_unusual_size.jpg}{1}}
-\only<3>{\figw{Figs/gough_mouse_with_bird.jpg}{1}}
+\only<1|handout 0>{\figh{Figs/capybara.jpg}{0.85}}
+\only<2|handout 0>{\figh{Figs/rodents_of_unusual_size.jpg}{0.85}}
+\only<3>{\figh{Figs/gough_mouse_with_bird.jpg}{0.85}}
 
 \note{
   The mice on Gough Island are the largest wild mice on earth. And
@@ -114,7 +114,7 @@ load("~/Projects/Payseur_Gough/DerivedData/goughF2_simple_v4.RData")
 
 \begin{frame}[c]{Leptin knockout}
 
-\figw{Figs/leptin_ko.jpg}{0.9}
+\figh{Figs/leptin_ko.jpg}{0.85}
 
 \note{
   The Gough mice didn't look all that large to me, because in other
@@ -183,7 +183,7 @@ load("~/Projects/Payseur_Gough/DerivedData/goughF2_simple_v4.RData")
 
 \begin{frame}[c]{Gough and WSB mice}
 
-\figw{Figs/GI_WSB_pic3.png}{0.9}
+\figw{Figs/GI_WSB_pic3.png}{0.85}
 
 
 \note{
@@ -220,9 +220,9 @@ load("~/Projects/Payseur_Gough/DerivedData/goughF2_simple_v4.RData")
 
 \begin{frame}[c]{Partially-inbred Gough lines}
 
-\only<1>{\figw{Figs/cross1.pdf}{1.0}}
-\only<2|handout 0>{\figw{Figs/cross2.pdf}{1.0}}
-\only<3|handout 0>{\figw{Figs/cross3.pdf}{1.0}}
+\only<1>{\figh{Figs/cross1.pdf}{0.85}}
+\only<2|handout 0>{\figh{Figs/cross2.pdf}{0.85}}
+\only<3|handout 0>{\figh{Figs/cross3.pdf}{0.85}}
 
 \note{
   Bret Payseur's lab is in the process of developing a set of inbred
@@ -233,11 +233,11 @@ load("~/Projects/Payseur_Gough/DerivedData/goughF2_simple_v4.RData")
 
 \begin{frame}[c]{Gough $\times$ WSB crosses}
 
-\only<1>{\figw{Figs/cross4.pdf}{1.0}}
-\only<2|handout 0>{\figw{Figs/cross5.pdf}{1.0}}
-\only<3|handout 0>{\figw{Figs/cross6.pdf}{1.0}}
-\only<4|handout 0>{\figw{Figs/cross7.pdf}{1.0}}
-\only<5|handout 0>{\figw{Figs/cross8.pdf}{1.0}}
+\only<1>{\figh{Figs/cross4.pdf}{0.85}}
+\only<2|handout 0>{\figh{Figs/cross5.pdf}{0.85}}
+\only<3|handout 0>{\figh{Figs/cross6.pdf}{0.85}}
+\only<4|handout 0>{\figh{Figs/cross7.pdf}{0.85}}
+\only<5|handout 0>{\figh{Figs/cross8.pdf}{0.85}}
 
 
 \note{
@@ -293,7 +293,7 @@ load("~/Projects/Payseur_Gough/DerivedData/goughF2_simple_v4.RData")
 
 \begin{frame}[c]{Genotypes}
 
-\figw{Figs/geno_image.png}{1.0}
+\figh{Figs/geno_image.png}{0.85}
 
 \note{
   An image with a portion of the genotype data (green=Gough
@@ -308,7 +308,7 @@ load("~/Projects/Payseur_Gough/DerivedData/goughF2_simple_v4.RData")
 
 \begin{frame}[c]{Weight at 5 weeks vs genotype}
 
-\figw{Figs/pheno_v_geno.pdf}{1.0}
+\figh{Figs/pheno_v_geno.pdf}{0.85}
 
 \note{
   These dotplots show phenotype versus genotype for three selected
@@ -367,7 +367,7 @@ load("~/Projects/Payseur_Gough/DerivedData/goughF2_simple_v4.RData")
 
 \begin{frame}[c]{\href{https://www.biostat.wisc.edu/~kbroman/presentations/StOlaf2019/perm_test}{\color{title} Permutation test}}
 
-\figw{Figs/perm_test.png}{0.9}
+\figh{Figs/perm_test.png}{0.85}
 
 \note{
   This is an interactive illustration of a permutation test.
@@ -382,7 +382,7 @@ load("~/Projects/Payseur_Gough/DerivedData/goughF2_simple_v4.RData")
 
 \begin{frame}[c]{Histogram of permutation results}
 
-\figw{Figs/permtest_hist.pdf}{0.9}
+\figh{Figs/permtest_hist.pdf}{0.85}
 
 \note{
   Here's a histogram of the results of a permutation test with 10,000 replicates.
@@ -398,7 +398,7 @@ load("~/Projects/Payseur_Gough/DerivedData/goughF2_simple_v4.RData")
 \begin{frame}[c]{\href{iplot_bodyweight.html}{\color{title} Genome scan for body weight}}
 
 
-\figw{Figs/iplot_bodyweight.png}{1.0}
+\figh{Figs/iplot_bodyweight.png}{0.82}
 
 \note{
   These are the results of genome scans for body weight, considering
@@ -422,7 +422,7 @@ load("~/Projects/Payseur_Gough/DerivedData/goughF2_simple_v4.RData")
 
 \begin{frame}[c]{\href{iplot_deriv_bodyweight.html}{\color{title} Genome scan for growth rate}}
 
-\figw{Figs/iplot_deriv_bodyweight.png}{1.0}
+\figh{Figs/iplot_deriv_bodyweight.png}{0.82}
 
 \note{
   These are analogous results to the previous slide, but for growth
