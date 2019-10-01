@@ -52,8 +52,6 @@ load("~/Projects/Payseur_Gough/DerivedData/goughF2_simple_v4.RData")
 
 \vspace{-40pt}
 
-  \vfill \hfill \includegraphics[height=6mm]{Figs/cc-zero.png} \vspace*{-3mm}
-
 \note{
   This is a collaboration with Bret Payseur (Genetics, UW-Madison).
 
@@ -488,8 +486,7 @@ NIGMS/NIH
 
 \Large
 
-Slides: \href{https://bit.ly/stolaf2019}{\tt bit.ly/stolaf2019} \quad
-\includegraphics[height=5mm]{Figs/cc-zero.png}
+Slides: \href{https://bit.ly/stolaf2019}{\tt bit.ly/stolaf2019}
 
 \vspace{7mm}
 
