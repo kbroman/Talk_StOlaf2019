@@ -1,6 +1,6 @@
 ## Talk on &ldquo;Genetics of extreme body size evolution in mice from Gough Island&rdquo;
 
-These are slides for a talk that I will give at
+These are slides for a talk that I gave at
 [St Olaf College](https://stolaf.edu) on 30 Sept 2019.
 (They are revised from a talk I gave at the
 [Madison East High School](https://east.madison.k12.wi.us) on 9 March
